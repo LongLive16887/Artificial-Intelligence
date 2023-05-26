@@ -1,0 +1,275 @@
+@media(min-width: 1920px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* Core styles */
+.btn{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+    background-color: #3A68B8;
+    border: none;
+}
+
+.btn:hover{
+    color: #ffffff;
+}
+
+.wrapper {
+    text-align: center;
+    width: 230px;
+  }
+  
+.search {
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 50px;
+  transition: 0.4s;
+}
+
+.search:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.search:hover input {
+    max-width: 180px;
+}
+
+
+.search input {
+    background: transparent;
+    border: 0;
+    max-width: 0;
+    padding: 0;
+    text-indent: 12px;
+    color: #f9f9f9;
+    font-size: 22px;
+    font-family: "Poppins";
+    outline: none;
+    transition: 0.4s;
+}
+
+.search input::placeholder {
+    color: #f9f9f9;
+}
+
+.search span {
+    display: grid;
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    background: #3A68B8;
+    color: #f9f9f9;
+    border-radius: inherit;
+    font-size: 24px;
+    pointer-events: none;
+}
+
+
+/* Text colors */
+.text-white-custom{
+    color: #ffffff;
+}
+.text-black-custom{
+    color: #000000;
+}
+.text-grey-custom {
+    color: #727272!important;
+}
+.text-light-grey-custom {
+    color: #818198!important;
+}
+
+.text-blue-custom{
+    color: #3A68B8;
+}
+
+.ff-open-sans{
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+
+/* html */
+body{
+    background: #020A18;
+}
+
+/* Navigation menu */
+.navbar{
+    background: #030a17;
+}
+
+.navbar-brand{
+    /* Artificial Intelligence */
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.5455px;
+    line-height: 31px;
+    /* identical to box height */
+
+
+    /* #3A68B8 */
+    color: #3A68B8;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .navbar-link.active,
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .nav-link{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover{
+    color: #ffffff;
+}
+
+/*home*/
+
+.home{
+    padding: 150px 0 100px 0;
+}
+
+.home_texts_theme{
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 130%;
+}
+
+.home_texts_up_theme{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.home_texts_bt_theme{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+/*about*/
+
+.about{
+    padding-bottom: 100px;
+}
+
+/*Welcome*/
+.welcome{
+    padding-bottom: 100px;
+}
+.img-wrapper{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+@media screen and (min-width: 576px){
+    .carousel-inner{
+        display: flex;
+    }
+
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+        flex: 0 0 calc(100%/3);
+    }
+}
+
+.carousel-inner{
+    padding: 1em;
+}
+
+.card{
+    background-color: #3A68B8;
+    margin: 0 1.5em;
+    max-width: 85%;
+    max-height: 100%;
+}
+
+.btns > button{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.carousel-inner .carousel-item .card h1{
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+
+.carousel-inner .carousel-item .card p{
+    color: #f9f9f9;
+    font-family: "Open Sans";
+}
+
+/*onfooter*/
+
+
+.onfooter{
+    padding-bottom: 100px;
+}
+
+/* promotion */
+
+.promotion{
+    padding-bottom: 100px;
+}
+
+.big_fs{
+    font-size: 56px;
+}
+
+/*footer*/
+
+.footer{
+    padding-bottom: 100px;
+}
+
+.footer .main_footer > h1,
+.footer .main_footer div > a,
+.footer .ft_col > a,
+.footer .ft_col > h1,
+.footer .ft_finish > h1,
+.footer .ft_finish > a,
+.footer .ft_finish .ft_button button,
+.footer .ft_finish .ft_button ul > li{
+    font-family: "Circular Std";
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
